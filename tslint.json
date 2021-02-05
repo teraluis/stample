@@ -13,7 +13,8 @@
       true,
       "attribute",
       "app",
-      "camelCase"
+      "camelCase",
+      "allow-leading-underscore"
     ],
     "component-selector": [
       true,
@@ -87,5 +88,13 @@
   },
   "rulesDirectory": [
     "codelyzer"
-  ]
+  ],
+  "variable-name": {
+    "options": [
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case",
+      "allow-leading-underscore"
+    ]
+  }
 }
